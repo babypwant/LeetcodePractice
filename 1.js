@@ -1,7 +1,5 @@
 function recursiveBubbleSort (arr, arr_length) { 
 
-//well then I guess I would start by iterationg through the array to check the weights
-
     for(let i =0; i < arr_length - 1; i++) {
 
         if (arr[i] > arr[i + 1]){
