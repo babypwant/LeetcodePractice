@@ -103,19 +103,6 @@ const isValid = function(s) {
 
   return stack.length === 0; // The stack should be empty for a valid string
 };
-Explanation:
-
-Create an empty stack to store the opening brackets encountered.
-Iterate through each character in the string.
-If the character is an opening bracket ('(', '[', '{'), push it onto the stack.
-If the character is a closing bracket (')', ']', '}'), pop the top element from the stack and check if it matches the closing bracket. If not, return false as it is an invalid string.
-After iterating through the entire string, check if the stack is empty. If it is, the string is valid; otherwise, it is invalid.
-This solution leverages the LIFO (Last-In, First-Out) property of the stack to ensure that the brackets are closed in the correct order and have matching types.
-
-You can test this solution by calling the isValid function with different input strings, such as isValid("()"), isValid("()[]{}"), or isValid("(]"), and it will return true or false based on the validity of the string.
-
-I hope this helps! Let me know if you have any further questions.
-
 
 
 
