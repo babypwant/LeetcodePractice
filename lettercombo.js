@@ -1,4 +1,4 @@
-var rearrangeJs = function(digits) {
+var rearrangeJsmatric.js = function(digits) {
     if (digits.length === 0) {
       return [];
     }
